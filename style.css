@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+
+}
+
+.maincontainer{
+  display: flex;
+  height: 100vh;
+
+}
+
+.leftcontainer{
+
+  background-color: black;
+  width: 50vw;
+  padding-left: 30px;
+}
+
+.rightcontainer{
+  
+  background-color: #575A85;
+  width: 50vw;
+ 
+}
+
+.p1{
+  color: #575A85;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.p2{
+  color: #B8BCCC;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.leftcontainer p{
+  padding-top: 30px;
+
+}
+
+.leftcontainer img{
+  width: 400px;
+height: 400px;
+flex-shrink: 0;
+padding-top: 60px;
+align-items: center;
+padding-left: 120px;
+}
+
+.rightcontainer p{
+  color: #B8BCCC;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.rightcontainer button{
+  background: #575A85;
+  color: #B8BCCC;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.rightcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inside button{
+ padding-inline: 40px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ border-radius: 10px;
+ border: 1px solid white;
+ margin-left: 170px;
+ cursor: pointer;
+}

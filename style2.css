@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.maincontainer{
+  height: 200vh;
+}
+
+
+.top1{
+  background-color: black;
+  height: 30vh;
+ display: flex;
+}
+
+.top1 p{
+  color: rgba(184, 188, 204, 0.50);
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.top2{
+  background-color: #575A85;
+  height: 100vh;
+}
+
+.top2 p{
+  color: #B8BCCC;
+text-align: center;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.top2 p{
+  text-align: center;
+  padding: 10px;
+}
+
+
+.top12{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.top13{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.top2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top3{
+  background-color: black;
+  height: 40vh;
+}
+
+.top3 p{
+  color: rgba(184, 188, 204, 0.50);
+font-family: Inter;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 15px;
+}
+
+.top3 .p1{
+  color: #B8BCCC;
+text-align: center;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.top4{
+  background-color: black;
+}
+
+.top4>p{
+  color: #B8BCCC;
+text-align: center;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 80px;
+}
+
+.card{
+  width: 678.392px;
+height: 399px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #575A85;
+}
+
+
+.card p{
+  color: #B8BCCC;
+font-family: Montserrat;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.innertop4{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card p{
+  margin-left: 20px;
+}
